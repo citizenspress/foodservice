@@ -23,7 +23,7 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
+    name = "blog"
     url  = "/blog/"
     weight = 2
 
@@ -32,11 +32,15 @@ paginate = 10
     identifier = "faq"
     url  = "/faq/"
     weight = 3
-
+    [[menu.main]]
+        name = "TEST"
+        identifier = "test"
+        url  = "/test/"
+        weight = 4
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+    weight = 5
 
 # Top bar social links menu
 
@@ -97,7 +101,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
+    logo = "img/Good FooD.png"
     address = """<p><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
         <br>Newtown upon River
